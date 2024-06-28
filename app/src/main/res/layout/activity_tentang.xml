@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".FiturActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cream"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+        <RelativeLayout
+            android:layout_width="408dp"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:background="@drawable/wave">
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="399dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="\n Tentang Aplikasi \n \n  1. Sumber Dataset \n \n https://www.kaggle.com/datasets/kapoorprakhar/cardio-health-risk-assessment-dataset \n \n \n \n 2. Tujuan Dataset \n \n Membantu peneliti mengembangkan model pembelajaran mesin baru untuk memprediksi penyakit jantung. \n \n \n \n 3. Cara Menggunakan Aplikasi \n \n Buka aplikasi Cardio Health dan mulai untuk mengidentifikasi penyakit Jantung."
+                android:textColor="@color/hijau"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
